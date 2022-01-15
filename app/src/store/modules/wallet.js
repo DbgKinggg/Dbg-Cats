@@ -148,7 +148,7 @@ const actions = {
   },
   async disconnect({ commit }) {
     commit(disconnectWallet());
-    commit("data/clearData", {}, { root: true });
+    commit("contract/clearData", {}, { root: true });
   },
 };
 

@@ -23,27 +23,27 @@ export default {
         const store = useStore()
 
         const account = computed(() => store.state.wallet.account)
-        // const smartContract = computed(() => store.state.wallet.smartContract)
+        const smartContract = computed(() => store.state.contract.smartContract)
 
-        // const getData = (account, smartContract) => {
-        //     if (account !== "" && smartContract !== null) {
-        //         store.dispatch('data/fetchData')
-        //     }
-        // }
+        const getData = (account, smartContract) => {
+            if (account !== "" && smartContract !== null) {
+                store.dispatch('contract/fetchData')
+            }
+        }
 
         return {
             account,
-            // smartContract,
+            smartContract,
             connectWallet: async () => {
                 await store.dispatch('wallet/connect')
 
-                // if (!store.state.wallet.errorMsg) {
-                //     getData(account.value, smartContract.value)
-                // }
+                if (!store.state.wallet.errorMsg) {
+                    getData(account.value, smartContract.value)
+                }
             },
             disconnectWallet: async () => {
                 await store.dispatch('wallet/disconnect')
-            }
+            },
         }
     }
 }
