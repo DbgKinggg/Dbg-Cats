@@ -2,14 +2,14 @@
     <div class="text-center hero-content">
         <div class="max-w-md">
             <h1
-                class="mb-5 inline-block text-6xl font-bold tracking-widest transform transition-all cursor-pointer hover:-translate-y-1 text-neutral"
+                class="mb-5 inline-block text-4xl md:text-6xl font-bold tracking-widest transform transition-all cursor-pointer hover:-translate-y-1 text-neutral"
             >
                 逗比国
-                <span class="text-primary -ml-6">猫咪</span>
+                <span class="text-primary text-5xl md:text-7xl md:-ml-5">猫咪</span>
             </h1>
             <p class="mb-5">一个船新的开源免费随机生成NFT系列</p>
             <div
-                class="stat-value text-4xl text-black mb-3 transform transition-all cursor-pointer hover:-translate-y-1"
+                class="stat-value text-3xl md:text-4xl text-black mb-3 transform transition-all cursor-pointer hover:-translate-y-1"
                 @click="fetchData"
             >
                 已铸造：
