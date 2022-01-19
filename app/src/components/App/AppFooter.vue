@@ -11,8 +11,24 @@
         <div class="stat place-items-center place-content-center">
             <div class="stat-title">网络</div>
             <div class="stat-value text-primary">
-                <a href="https://polygon.technology/" target="blank" ref="noopener">Polygon</a>
+                <a
+                    href="https://polygon.technology/"
+                    target="blank"
+                    ref="noopener"
+                >{{ CONFIG.NETWORK.NAME }}</a>
             </div>
         </div>
     </div>
 </template>
+
+<script>
+import CONFIG from '@/config/config.json'
+
+export default {
+    setup() {
+        return {
+            CONFIG
+        }
+    }
+}
+</script>

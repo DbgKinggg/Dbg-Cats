@@ -1,12 +1,7 @@
 <template>
     <div class="flex flex-row justify-evenly mt-5">
         <div class="tooltip" data-tip="浏览我们的B站账号">
-            <a
-                class="btn btn-ghost"
-                href="https://space.bilibili.com/7300690"
-                target="_blank"
-                tel="noopener"
-            >
+            <a class="btn btn-ghost" href="#">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,12 +20,7 @@
             </a>
         </div>
         <div class="tooltip" data-tip="浏览我们的Youtube账号">
-            <a
-                class="btn btn-ghost"
-                href="https://www.youtube.com/channel/UC0wLr7dWcLtvxDryeHpPaEw"
-                target="_blank"
-                tel="noopener"
-            >
+            <a class="btn btn-ghost" href="#">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"

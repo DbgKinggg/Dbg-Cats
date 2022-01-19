@@ -1,16 +1,16 @@
 {
-  "CONTRACT_ADDRESS": "0x9EB1a4ca26Fb732cC921C7d876F3350Ff15f978E",
-  "SCAN_LINK": "https://polygonscan.com/token/0x9EB1a4ca26Fb732cC921C7d876F3350Ff15f978E",
+  "CONTRACT_ADDRESS": "0x189e1E0C01cD90E5cC9BD60B34DFaF24DE65dd3d",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x189e1E0C01cD90E5cC9BD60B34DFaF24DE65dd3d",
   "NETWORK": {
-    "NAME": "Polygon Mumbai",
-    "SYMBOL": "Matic",
-    "ID": 80001
+    "NAME": "Ethereum Rinkeby",
+    "SYMBOL": "RIN",
+    "ID": 4
   },
-  "NFT_NAME": "4tune Cookies Gen0",
-  "SYMBOL": "4TUNE",
-  "MAX_SUPPLY": 50,
-  "MINT_COST": 0.01,
+  "NFT_NAME": "Dbg Cats",
+  "SYMBOL": "DBGCATS",
+  "MAX_SUPPLY": 3333,
+  "MINT_COST": 0,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/account"
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/account"
 }
