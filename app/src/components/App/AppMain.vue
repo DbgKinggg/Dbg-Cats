@@ -1,15 +1,15 @@
 <template>
-    <div class="text-center hero-content">
+    <div class="text-center hero-content z-10 bg-black/50 rounded-3xl">
         <div class="max-w-md">
             <h1
-                class="mb-5 inline-block text-4xl md:text-6xl font-bold tracking-widest transform transition-all cursor-pointer hover:-translate-y-1 text-neutral"
+                class="mb-5 inline-block text-4xl md:text-6xl font-bold tracking-widest transform transition-all cursor-pointer hover:-translate-y-1 text-neutral neonText"
             >
                 逗比国
                 <span class="text-primary text-5xl md:text-7xl md:-ml-5">猫咪</span>
             </h1>
             <p class="mb-5">一个船新的开源免费随机生成NFT系列</p>
             <div
-                class="stat-value text-3xl md:text-4xl text-black mb-3 transform transition-all cursor-pointer hover:-translate-y-1"
+                class="stat-value text-3xl md:text-4xl mb-3 transform transition-all cursor-pointer hover:-translate-y-1"
                 @click="fetchData"
             >
                 已铸造：
@@ -18,7 +18,7 @@
                 /&nbsp;{{ CONFIG.MAX_SUPPLY }}
             </div>
             <div>
-                <div class="tooltip" data-tip="在Opensea查看你已铸造的NFT" v-if="minted">
+                <div class="tooltip" data-tip="在Opensea查看你已铸造的NFT（请稍等片刻）" v-if="minted">
                     <a
                         class="shadow-2xl lg:btn-lg btn btn-md glass"
                         :href="CONFIG.MARKETPLACE_LINK"
@@ -92,3 +92,9 @@ export default {
     }
 }
 </script>
+
+<style>
+.neonText {
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 16px #bc13fe, 0 0 25px #bc13fe;
+}
+</style>

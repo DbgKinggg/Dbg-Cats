@@ -8,10 +8,11 @@
   },
   "dependencies": {
     "daisyui": "^1.22.0",
+    "gsap": "^3.9.1",
     "vue": "^3.2.25",
+    "vue-toastification": "^2.0.0-rc.5",
     "vuex": "^4.0.2",
-    "web3": "^1.5.1",
-    "vue-toastification": "^2.0.0-rc.5"
+    "web3": "^1.5.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",

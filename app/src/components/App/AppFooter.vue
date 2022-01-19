@@ -1,5 +1,5 @@
 <template>
-    <div class="w-11/12 md:w-4/5 shadow stats absolute bottom-5">
+    <div class="w-11/12 md:w-4/5 shadow stats absolute bottom-5 z-10">
         <div class="stat place-items-center place-content-center">
             <div class="stat-title">总数</div>
             <div class="stat-value">2000</div>
