@@ -12,8 +12,8 @@ export default {
 
         const config = {
             src: './spritesheet.png',
-            rows: 10,
-            cols: 10
+            rows: 5,
+            cols: 4
         }
 
         // UTILS
@@ -78,7 +78,7 @@ export default {
                 endX
             } = props
 
-            const xDuration = 20
+            const xDuration = 10
             const yDuration = 0.5
 
             const tl = gsap.timeline()

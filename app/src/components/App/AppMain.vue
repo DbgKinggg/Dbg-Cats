@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center hero-content z-10 bg-black/50 rounded-3xl">
+    <div class="text-center hero-content z-10 bg-black/50 rounded-3xl mx-4">
         <div class="max-w-md">
             <h1
                 class="mb-5 inline-block text-4xl md:text-6xl font-bold tracking-widest transform transition-all cursor-pointer hover:-translate-y-1 text-neutral neonText"
@@ -95,6 +95,6 @@ export default {
 
 <style>
 .neonText {
-    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 16px #bc13fe, 0 0 25px #bc13fe;
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 16px #bc13fe;
 }
 </style>
